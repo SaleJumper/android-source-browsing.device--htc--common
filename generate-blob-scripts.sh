@@ -24,13 +24,13 @@
 
 # It can optionally upload the results to a Gerrit server for review.
 
-# WARNING: It destroys the vendor tree. Don't leave anything precious there.
+# WARNING: It destroys the source tree. Don't leave anything precious there.
 
 # Caveat: this script does 6 full builds (2 per device). It takes a while
 # to run. It's best # suited for overnight runs on multi-CPU machines
 # with a lot of RAM.
 
-# Syntax: device/htc/common/generate-blob-scripts.sh -f|--force [server branch]
+# Syntax: device/htc/common/generate-blob-scripts.sh -f|--force [<server> <branch>]
 #
 # If the server and branch paramters are both present, the script will upload
 # new files (if there's been any change) to the mentioned Gerrit server,
